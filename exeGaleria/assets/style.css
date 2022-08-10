@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(0.25turn, #f4e2d8, #ddd6f3);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color:#1D438A;
+    max-height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px ;
+    margin: 20px 0px 20px 0px;
+}
+.div_p{
+    display: flex;
+    flex-direction: column;
+}
+.full_div{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+.displayed_img{
+    margin-bottom: 5px;
+}
+.overlay img{
+    transition: transform 0.2s;
+}
+.overlay img:hover{
+    transform: scale(1.05);
+}
+.bt_dark{
+    margin-top: 8px;
+}
+.div_p_img_full{
+    position: relative;
+}
+.d_dark{
+    width: 900px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    display: inline-block;
+    border-radius: 5px;
+    display: none;
+}
+svg{
+    margin-top: 1rem;
+}
+#svg_on{
+    display: none;
+}
+a{
+    transition: transform 0.3s;
+}
+a:hover{
+    transform: scale(1.2);
+}
+
